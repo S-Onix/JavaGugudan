@@ -26,31 +26,31 @@ public class Gugudan {
 		System.out.println(3*8);
 		System.out.println(3*9);
 		
-		int number3 = 3 *1;
+		int number3 = 4 *1;
 		System.out.println(number3);
 		
-		int number3 = 3 *2;
+		number3 = 4 *2;
 		System.out.println(number3);
 		
-		int number3 = 3 *3;
+		number3 = 4 *3;
 		System.out.println(number3);
 		
-		int number3 = 3 *4;
+		number3 = 4 *4;
 		System.out.println(number3);
 		
-		int number3 = 3 *5;
+		number3 = 4 *5;
 		System.out.println(number3);
 		
-		int number3 = 3 *6;
+		number3 = 4 *6;
 		System.out.println(number3);
 		
-		int number3 = 3 *7;
+		number3 = 4 *7;
 		System.out.println(number3);
 		
-		int number3 = 3 *8;
+		number3 = 4 *8;
 		System.out.println(number3);
 		
-		int number3 = 3 *9;
+		number3 = 4 *9;
 		System.out.println(number3);
 		
 		
@@ -65,6 +65,16 @@ public class Gugudan {
 		System.out.println(number * 7);
 		System.out.println(number * 8);
 		System.out.println(number * 9);
+		
+		int i = 1;
+		while(i<10) {
+			System.out.println(6*i);
+			i++;
+		}
+		
+		for(int j = 1 ; j < 10 ; j++) {
+			System.out.println(j*7);
+		}
 	
 	}
 }
