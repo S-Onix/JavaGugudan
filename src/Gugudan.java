@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Gugudan {
 	
 	public static int[] gugudan(int input) {
@@ -14,14 +12,4 @@ public class Gugudan {
 			System.out.println(result[i]);
 		}
 	}
-	
-	public static void main(String [] args) {		
-		
-		for(int i = 2 ; i < 10 ; i++) {
-			int [] result = gugudan(i);
-			print(result);
-		}
-		
-	}
-	
 }
